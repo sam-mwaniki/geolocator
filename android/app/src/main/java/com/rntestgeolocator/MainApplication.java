@@ -1,5 +1,7 @@
 package com.rntestgeolocator;
 
+import com.oblador.vectoricons.VectorIconsPackage;
+
 import android.app.Application;
 
 import com.pilloxa.backgroundjob.BackgroundJobPackage;
@@ -40,7 +42,8 @@ public class MainApplication extends NavigationApplication {
           // No need to add RnnPackage and MainReactPackage
           return Arrays.<ReactPackage>asList(
               // eg. new VectorIconsPackage()
-              new BackgroundJobPackage()
+              new BackgroundJobPackage(),
+              new VectorIconsPackage()
           );
       }
     
