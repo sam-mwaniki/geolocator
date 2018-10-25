@@ -1,3 +1,4 @@
+import "core-js/es6/symbol";
 import { Navigation } from "react-native-navigation";
 import BackgroundJob from "react-native-background-job";
 import Icon from "react-native-vector-icons/Ionicons";
